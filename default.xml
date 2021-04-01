@@ -2,7 +2,7 @@
  <manifest>
 
  <remote fetch="https://github.com/kevinmukuna/" name="demo" />
-    <default revision="master" remote="demo"/>
+    <default revision="main" remote="demo"/>
      <project name="bookingsystem.git" path="lib/bookingsystem" remote="demo" revision="main" />
      <project name="project.git" path="lib/project" remote="demo" revision="master" />
 
