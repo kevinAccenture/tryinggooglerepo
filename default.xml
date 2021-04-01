@@ -1,0 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <manifest>
+
+ <remote fetch="https://github.com/kevinmukuna/" name="demo" />
+
+     <project name="bookingsystem.git" path="lib/bookingsystem" remote="demo" revision="main" />
+     <project name="project.git" path="lib/bookingsystem" remote="demo" revision="master" />
+
+ </manifest>
