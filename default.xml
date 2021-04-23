@@ -4,5 +4,5 @@
     <default remote="cmf" revision="python3" sync-j="1"/>
     <project name="cmf/lib" path="docs"/>
      <project name="cmf/virtualenv" path="virtualenv"/>
-    <project name="cmf/tools" path="tools"/>
+    <project name="cmf/tools" path="tools" revision="master" />
 </manifest>
