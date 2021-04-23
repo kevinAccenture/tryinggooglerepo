@@ -3,6 +3,6 @@
     <remote name="cmf" review="https://code.rdkcentral.com/r/" fetch="https://code.rdkcentral.com/r/"/>
     <default remote="cmf" revision="python3" sync-j="1"/>
     <project name="cmf/lib" path="cmf/lib"/>
-     <project name="cmf/virtualenv" path="cmf/virtualenv"/>
-    <project name="cmf/tools" path="cmf/tools" revision="master" />
+     <project name="cmf/virtualenv" path="cmf/virtualenv" revision="master"/>
+    <project name="cmf/tools" path="cmf/tools" revision="python3" />
 </manifest>
