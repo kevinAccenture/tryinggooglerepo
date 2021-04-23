@@ -1,7 +1,7 @@
 ?xml version='1.0' encoding='UTF-8'?>
  <manifest>
 
- <remote fetch="git clone 'https://code.rdkcentral.com/r/cmf/' " name="demo" />
+ <remote fetch="git clone https://code.rdkcentral.com/r/cmf/ " name="demo" />
     <default revision="python3" remote="demo"/>
      <project name="lib" path="lib/lib" remote="demo" revision="python3" />
      <project name="tools" path="lib/tools" remote="demo" revision="python3" />
