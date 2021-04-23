@@ -1,10 +1,8 @@
-?xml version='1.0' encoding='UTF-8'?>
- <manifest>
-
- <remote fetch="git clone https://code.rdkcentral.com/r/cmf/ " name="demo" />
-    <default revision="python3" remote="demo"/>
-     <project name="lib" path="lib/lib" remote="demo" revision="python3" />
-     <project name="tools" path="lib/tools" remote="demo" revision="python3" />
-      <project name="virtualenv" path="lib/virtualenv" remote="demo" revision="python3" />
-
- </manifest>
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+    <remote name="cmf" review="https://code.rdkcentral.com/r/" fetch="https://code.rdkcentral.com/r/"/>
+    <default remote="cmf" revision="python3" sync-j="1"/>
+    <project name="cmf/lib" path="docs"/>
+     <project name="cmf/virtualenv" path="virtualenv"/>
+    <project name="cmf/tools" path="tools"/>
+</manifest>
